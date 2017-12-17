@@ -1,0 +1,36 @@
+MAin size:
+
+1. Los margenes nunca se colpasan.
+
+2. Los margenes se consideran espacios ocupados
+
+3. Si le damos width 100 px y margen 10px, el item ocupa 120 px
+
+4. box-sizing border-box ?
+
+5. El espacio disponible podria ser positivo o negativo
+
+6. flex-basis: te da el tamaño base, el main size, predeterminado width, si cambiamos la direccion height.
+
+7. Si hay un width y flex-basis, le hace caso al flex-basis
+
+8. Flex-basis: auto -> el tamaño se define por el contenido
+
+------
+Calculo del flex-box
+
+Espacio sobrante: 100px
+cantidad de flex-grow: X
+flex-grow(default): 0;
+aumento a cada caja: 100/x
+
+flex-shrink: valor negativo
+por default: flex-shrink: 1;
+
+-----------
+Valor preterminado de flex:
+flex: 0 1 auto;
+
+flex none = flex: 0 0 auto
+flex: auto = flex: 1 1 auto
+flex: N = flex:  N 0 0;

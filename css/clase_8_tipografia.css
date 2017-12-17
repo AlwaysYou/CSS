@@ -1,0 +1,32 @@
+p{
+
+	color:rgba(0,0,0,0.5);
+	font-family: "Verdana", "Arial";
+	font-size: 1em;
+	/*font-size: 20px;*/
+	/*font-size: 100%; #Fuente normal*/
+
+	/*Anchura*/
+	font-weight: bold;
+
+	/* Centrar al texto */
+	text-align: center;
+	/*Centar izquierda*/
+	text-align: left;
+	/*Centar derecha*/
+	text-align: right;
+
+	/*Subrayados*/
+	text-decoration:underline;
+	/* Para quitar los subrayas*/
+	text-decoration:none;
+
+}
+
+h1{
+	background-color:red;
+	/*Quitar la negrita por default al h1*/
+	font-weight: normal;
+	/*Centrar el texto solo si son una caja bloque*/
+	text-align: center;
+}

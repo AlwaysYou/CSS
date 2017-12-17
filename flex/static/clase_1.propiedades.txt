@@ -1,0 +1,12 @@
+--------    Todo esto en el padre      ---------
+
+justify-content: flex-start (default) | flex-end |
+space-between | space-around | center
+
+align-items: stretch | flex-start | flex-end | center | baseline |
+
+stretch *default(rellena todo el espacio en eje secundario)
+
+
+--- para hijos ---
+align-self: sobre escribe el align-item sobre un unico item

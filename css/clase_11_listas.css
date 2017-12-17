@@ -1,0 +1,23 @@
+/* Son muy pocas las propiedades con listas*/
+
+
+
+/*ul > ul{ Para darle estilos solo a la ul padre*/
+ul{ 
+	/*Que tipo de lista queremos*/
+	/*list-style-type: disc; Defecto */
+	/*list-style-type: circle; circulos */
+	list-style-type: square;
+	/*list-style-position: outeside; defecto*/
+	/*list-style-position: inside; hacia dentro*/
+
+}
+
+ol{
+	/*list-style-type: decimal; Defecto */
+	list-style-type: decimal-leading-zero;
+	list-style-type: upper-latin;
+	list-style-type: lower-alpha;
+}
+
+/*MENU DE NAVEGACION*/

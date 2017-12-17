@@ -1,0 +1,47 @@
+h1{
+	color: steelblue;
+	font-family: Arial;
+	text-align: center;
+}
+
+.container{
+	width: 90%;
+	height: 700px;
+	background: lightblue;
+	margin: auto;
+	/*flex-direction: column;*/
+	display:flex;
+}
+.item{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	margin: 10px;
+}
+.item:nth-child(odd){
+	background: tomato;
+}
+.item:nth-child(even){
+	background: #fff;
+}                    
+
+.caja{
+	width:10px;
+	height: 10px;
+	background: pink;
+	padding: 20px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+/*.item:nth-child(1){
+	flex: 25;
+}
+.item:nth-child(2){
+	flex: 30;
+}
+.item:nth-child(3){
+	flex: 25;
+}
+.item:nth-child(4){
+	flex: 20;
+}*/

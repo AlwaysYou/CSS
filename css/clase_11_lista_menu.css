@@ -1,0 +1,29 @@
+.menu{
+	width: 100%;
+	background: #000;
+
+	/* Quitar los puntitos y te deja con espacios */
+
+	list-style: none;
+
+	/* Quitar el espacio*/
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Para colocarlos en linea*/
+
+.menu li{
+	/* Las pone en linea */
+	display: inline-block;
+}
+.menu li a{
+	padding: 10px 20px;
+	display: inline-block;
+	color: white;
+	background-color: red;
+	/* las etiquetas a tiene por default display: block */
+}
+.menu li a:hover{
+	background:#ccc;
+}

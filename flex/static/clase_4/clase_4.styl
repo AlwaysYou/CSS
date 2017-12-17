@@ -1,0 +1,40 @@
+body
+	margin 0px
+	padding 0px
+
+
+h1
+	font-family Arial
+	font-size 20px
+	text-align center
+
+.container
+	width 95%;
+	background lightblue
+	margin auto
+	display flex
+	flex-wrap wrap
+	padding 1em
+
+.item
+	width: calc((100% - 40px) / 5)
+	background: orange
+	/*margin-bottom: 2%;*/
+	/* Soporte para firefox*/
+	margin-bottom 10px
+	display flex
+	align-items center
+	justify-content: center
+	padding 2em 0
+	margin 1em
+//  Preguntar si no fuera compilado
+@media screen and (max-width: 400px)
+	.item
+		width: calc((100% - 20px) / 3)
+
+
+.item:last-child
+	margin-right auto
+	margin-left 10px
+
+

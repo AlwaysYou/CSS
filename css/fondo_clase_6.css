@@ -1,0 +1,35 @@
+/*body{*/
+	/* Cargamos la imagen*/
+	/*background-image:url(../static/imagenes/fondo.jpg);*/
+	/* Por defecto se va a repetir... */
+
+	/* Para que no se repita */
+	/*background-repeat: no-repeat;*/
+
+	/* Para que se repita solo en la coordenada X */
+	/*background-repeat: repeat-x;*/
+
+	/*3. Para bajar, el contenido baja pero el fondo sigue fijo*/
+	/*background-attachment: fixed;*/
+	/*3. Por defecto esta la de scroll*/
+	/*background-attachment: scroll;*/
+
+
+/*}*/
+
+
+	/* ************************************************/
+
+	/* @@@@@@@ Agregando una imagen solo a un div @@@@@@@ */
+
+
+	body{
+		background:url(../static/imagenes/abc_.png);
+		background-repeat: no-repeat;
+		color: #fff;
+		/* Posicionar de la imagen */
+		margin-top: 300px;
+		margin-right: 200px
+
+	}
+/* POr que al colocarloe n un div se pone chiqutio?*/

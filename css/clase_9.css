@@ -1,0 +1,41 @@
+a{
+	font-size: 20px;
+	color: #000;
+	/*PADDING: espaciado entre el texto y la caja*/
+	padding: 10px 20px;
+	/*Quitar el subrayado*/
+	text-decoration: none;
+	margin: 40px 60px 10px 20px;
+	
+}
+/*@@@@@@  Cuatro estados @@@@@@@@ */
+
+a:link{
+	/*Efecto para enlace que no han sido visitados:*/
+	color: red;
+}
+
+a:hover{
+	text-decoration: underline;
+
+	background-color: blue;
+	color: green;
+}
+
+/*Que va a pasar cuando darle un click*/
+a:active{
+	background-color: orange;
+}
+
+/* Para las paginas visitados */
+a:visited{
+	color: yellow;
+}
+/*
+div{
+	width: 100%;
+	height: 400px;
+	background: rgba(0,1,0,0.5);
+	text-align: center
+
+}*/

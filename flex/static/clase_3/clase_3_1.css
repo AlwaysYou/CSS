@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-family: Arial;
+	text-align: center;
+	color: #654321;
+}
+
+.container{
+	margin: auto; /* Para centrar el bloque */
+	width: 95%;
+	height: 500px;
+	background: salmon;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.item{
+	flex: 0 1 23%;
+	height: 100px;
+	background: rebeccapurple;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item:nth-child(odd){
+	background: deepskyblue;
+}
+
+
+.item-5{
+	order: -1;
+}

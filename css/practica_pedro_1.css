@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.bloque-rojo{
+	background-color: red;
+	padding: 10px 0px 10px 450px;
+	height: 65px;
+	position: relative;
+}
+.bloque-amarillo{
+	background-color: yellow;
+	/* - - */
+	position: absolute;
+	width: 450px;
+	height: 65px;
+	left: 0px;
+}
+a .img-logo{
+	margin: auto;
+	display: block;
+
+}
+.bloque-verde{
+	margin-left: 20px;
+	background-color: green;
+	width: 265px;
+	height: 65px;
+	width: 100%;
+}
+.lista_items li{
+	display: inline-block;
+}
+
+.lista_items li a{
+	color: white;
+	padding: 40px 40px 40px 40px;
+	margin-top: 40px;
+	background-color: 40px;
+}

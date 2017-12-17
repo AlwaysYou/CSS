@@ -1,0 +1,42 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	color: steelblue;
+	font-family: Arial;
+	text-align: center;
+}
+
+.container{
+	width: 90%;
+	height: 700px;
+	background: lightblue;
+	margin: auto;
+	display: flex;
+}
+
+.item{
+	flex-basis: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin: 10px;
+}
+.item:nth-child(even){
+	background: tomato;
+}
+.item:nth-child(odd){
+	background:green;
+}
+
+.item:nth-child(1){
+}
+/*.item:nth-child(1){
+	background: tomato;
+}
+.item:nth-child(2){
+	background: black;
+}*/

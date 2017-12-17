@@ -1,0 +1,39 @@
+
+div{
+	background: #ccc;
+	width: 800px;
+}
+
+img{
+	/* ALTURA Y ANCHO*/
+	/* REPETIR EL VALOR DEL HTML (PRIORIDAD AL CSS)*/
+	width: auto;
+	height: auto;
+
+	/* en CSS puedes colocar porcentajes*/
+	/*width: 100%;*/
+
+	/*Centrar las cosas horizontalmente*/
+	margin:auto; /* Tambien sirve para centrar algun div o section */
+	display:block; /* por defecto las imagenes tiene inline-block
+					Lo cambiamos por block */
+
+	/* Redondear pixeles*/
+
+	border-radius: 10px;
+
+	/* bolitas */
+	border-radius: 50%;
+
+	/* Bow Shadow - Sombra*/
+	border-radius: 5px;
+	box-shadow: 5px 5px 1px #424242; /* valor1: de izquierda a derecha
+							  ;arriba hacia abajo
+							  ;tamaño de 0px la sombra
+							  color */
+
+	/* Otro truquito*/
+	padding: 10px;
+	border: 1px solid #000;
+
+}

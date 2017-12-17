@@ -1,0 +1,31 @@
+div{
+	width: 100px;
+	height: 100px;
+	background: #4A88F4;
+	color: #fff;
+	font-size: 30px;
+}
+
+.caja-padre{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	background: #000;
+	float: right;
+
+}
+.caja{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/* Con posicion relative la caja se puede mover desde la posicion original*/
+	/* Con posicion absolute la caja se puede mover desde las coordenadas 0.0*/
+
+	/* Posicionamiento Fijo: Fixed*/ 
+	/*Es igual al relative, solo que la caja te sigue a donde quieras */
+
+	/* Si seteamos la posicion static, los atributos no sirven*/
+}
+

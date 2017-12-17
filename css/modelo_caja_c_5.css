@@ -1,0 +1,27 @@
+/*h1, a, div, p {
+	background: #ff8000
+}*/
+
+.cajas{
+	/*width:900px;*/
+	background: #ff8000;
+	margin: 40px;
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+}
+
+.login-header{
+	background: red;
+	margin-left: 70%;
+	margin-right: 10%;
+}
+
+.form-log{
+	display: inline-flex;
+}
+
+input{
+	padding: 2px;
+}
+

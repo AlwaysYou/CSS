@@ -1,0 +1,55 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sansa-serif;
+}
+
+h1{
+	text-align: center;
+	color: steelblue;
+}
+
+.flex-container{
+	width: 500px;
+	height: 500px;
+	background: lightblue;
+	margin: auto;
+	display: flex;
+
+	/* Cambiar el eje principal (al segundo eje )*/
+	/*flex-direction: row; (default) */
+	/*flex-direction: column;*/
+	/* ----------------------  */
+
+	/* Centrar a los hijos respecto al eje*/
+	/*justify-content: center;*/
+	/* Default */
+	/*justify-content: flex-start;*/
+	/*justify-content: center;*/
+	/*justify-content: space-around;*/
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column;*/
+	justify-content: space-around;
+	align-items: flex-start;
+	/*flex-direction: column;*/
+}
+
+.flex-items{
+	background: tomato;
+	/* Centrar los items*/
+	/* Centra las palabras */
+	/*display: flex;*/
+	/*justify-content: center;*/
+}
+
+footer{
+	margin-top: 3em;
+	text-align: center;
+}
+.flex-items:nth-child(odd){
+	background: teal;
+}
+.flex-items:nth-child(2){
+	font-size: 3em;
+	align-self: center;
+}

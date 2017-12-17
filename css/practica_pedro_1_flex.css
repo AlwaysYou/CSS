@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.bloque-rojo{
+	background-color: red;
+	padding: 10px 0px 10px 450px;
+	height: 65px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.bloque-amarillo{
+	background-color: yellow;
+	/* - - */
+	position: absolute;
+	width: 450px;
+	height: 65px;
+	left: 0px;
+}
+a .img-logo{
+	margin: auto;
+	display: block;
+
+}
+.bloque-verde{
+	margin-left: 20px;
+	background-color: green;
+	/*width: 265px;*/
+	/*height: 65px;*/
+	width: 100%;
+}
+
+.lista_items{
+	display: flex;
+}
+.lista_items li{
+	list-style: none;
+	margin: 0px 40px 0px;
+}
