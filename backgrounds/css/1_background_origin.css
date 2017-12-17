@@ -1,0 +1,13 @@
+
+.caja1, .caja2, .caja3{
+	background: url("https://img.europapress.es/fotoweb/fotonoticia_20171028145512_640.jpg") no-repeat;
+	width: 300px;
+	height: 200px;
+	padding: 40px;
+	margin-top: 20px;
+	border: 20px solid rgba(0,0,0,.5);
+}
+
+.caja1{
+	background-origin: border-box;
+}
