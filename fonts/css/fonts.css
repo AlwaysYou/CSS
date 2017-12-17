@@ -1,0 +1,8 @@
+/* Importart fuente */
+@font-face {
+    font-family: "Bungee";
+    src: url("fonts/Bungee-Regular.ttf");
+}
+span{
+	font-family: "Bungee"
+}

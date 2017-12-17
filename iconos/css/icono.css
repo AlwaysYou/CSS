@@ -1,0 +1,16 @@
+@font-face{
+	font-family: icomoon;
+	src: url('iconos_icomoon_io/iconomoon.eot') format('embedded-opentype'),
+		 url('iconos_icomoon_io/icomoon.woff?3ty4kp') format('woff'),
+		 url('iconos_icomoon_io/icomoon.ttf?3ty4kp') format('truetype'),
+		 url('iconos_icomoon_io/icomoon.svg?3ty4kp#icomoon') format('svg');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+
+	font-family: 'icomoon';
+}
+
+.icon-headphones:before {
+  content: "\e910";
+}
