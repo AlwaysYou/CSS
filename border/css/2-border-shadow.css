@@ -1,0 +1,36 @@
+.caja{
+	width: 400px;
+	height: 200px;
+	margin: 20px auto;
+}
+
+.caja-uno{
+	background: tomato;
+	/* Propiedades de la clase */
+	/* Primer valor derecha y el segundo izquierda*/
+	box-shadow: 10px 10px;
+}
+
+.caja-dos{
+	background: steelblue;
+
+	/* Propiedad 2*/
+	/* Agregar un tercer valor para ver el desenfoque*/
+	/* Difuminado */
+	box-shadow: 10px 10px 4px;
+}
+
+.caja-tres{
+	background: pink;
+	/* Se contrae o se expande (4 valores)*/
+	/*box-shadow: 100px 100px  0px 20px;*/
+	/* Agregar el color de la sombra (5 valor)*/
+	box-shadow: 100px 100px  0px 20px red;
+	margin-bottom: 150px;
+
+}
+.caja-cuatro{
+	/* Sombra interna */
+	background: green;
+	box-shadow:  inset 1px 1px 5px ;
+}

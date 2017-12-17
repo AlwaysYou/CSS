@@ -1,0 +1,27 @@
+.caja-uno{
+	width: 400px;
+	height: 200px;
+	background: red;
+	border-radius: 8px;
+}
+.caja-dos{
+	margin: 20px 0;
+	width: 400px;
+	height: 200px;
+	background: blue;
+	/* Propiedades*/
+	border-top-left-radius: 8px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 55px;
+	border-bottom-left-radius: 20px;
+	/* border radius tambien acepta 4 */
+	border: 8px 20px 55px 20px;
+}
+.caja-tres{
+	margin: 20px 0;
+	width: 400px;
+	height: 200px;
+	background: tomato;
+
+	border-top-left-radius: 40px 120px; /* Elipse si son 2 valores, circulo si uno */
+}
