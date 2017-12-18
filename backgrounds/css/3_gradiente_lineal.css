@@ -1,0 +1,30 @@
+.caja{
+	width: 400px;
+	height: 100px;
+	background: #ccc;
+	margin-top: 20px;
+}
+
+.caja1{
+	background-image: linear-gradient(
+		blue,
+		green);
+}
+.caja2{
+	background-image: linear-gradient(
+		to right,
+		blue,
+		green);
+}
+.caja3{
+	background-image: linear-gradient(
+		45deg,
+		red,
+		yellow)
+}
+.caja4{
+	background-image: linear-gradient(
+		10deg,
+		red 20%,
+		yellow)
+}

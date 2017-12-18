@@ -1,0 +1,30 @@
+.caja{
+	width: 400px;
+	height: 100px;
+	background: #ccc;
+	margin-top: 20px;
+}
+
+.caja1{
+	background-image: radial-gradient(
+		blue,
+		green);
+}
+.caja2{
+	background-image: radial-gradient(
+		circle closest-side,
+		blue,
+		green);
+}
+.caja3{
+	background-image: radial-gradient(
+		circle at bottom left,
+		red,
+		yellow)
+}
+.caja4{
+	background-image: radial-gradient(
+		10deg,
+		red 20%,
+		yellow)
+}

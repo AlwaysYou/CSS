@@ -1,0 +1,15 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+.caja{
+	width: 600px;
+	height: 250px;
+	border: 10px solid steelblue;
+	background: url("http://sm.ign.com/t/ign_latam/gallery/d/dragon-bal/dragon-ball-super-ultra-instinct-predictions_esc4.640.jpg") no-repeat;
+	margin: auto;
+	background-origin: border-box;
+	background-size: cover;
+	/* Contener toda la imagen en la parte derecha*/
+	background-size: contain;
+}
