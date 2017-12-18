@@ -38,7 +38,9 @@ body{
 }
 
 #guia{
-	background: green;
+	background: #3aaa35;
+	padding: 75px;
+	color: #fff;
 }
 
 .circulo{
@@ -63,14 +65,21 @@ li{
 	src: url("fonts/OpenSans-Regular.ttf");
 }
 
+.titulo-principal{
+	text-shadow: 2px 2px 1px rgba(0, 11, 63);
+	font-size: 50px;
+	color: #fff;
+
+	
+}
 .titulo-1{
 	font-weight: 300;
 	display:block;
-	font-size: 50px;
 }
 .titulo-2{
 	font-weight: 700;
 	display: block;
+
 }
 
 @font-face {
@@ -104,3 +113,17 @@ li{
 }
 
 /* End modulo 4 */
+
+
+/* Modulo 5 Gradientes e imagenes*/
+
+.cabecera{
+	background-image: linear-gradient(to right,
+									  rgba(0, 11, 63, 0.5),
+									  rgba(0, 11, 63, 0.5) 25%,
+									  rgba(241, 142, 52, 0.1) 65%),
+									  url("../images/h.jpg");
+	background-size: cover;
+	height: 500px;
+	padding-top: 150px;
+}
