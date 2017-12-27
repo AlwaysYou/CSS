@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title> Tipografía </title>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1>Hola</h1>
+		<h2> Este es el header h2 <span class="small"> Texto secundaria</small></h2>
+		<h3>Este es el header h3 <small> Texto secundaria</small></h3>
+		<h4>Este es el header h4 <small> Texto secundaria</small></h4>
+		<h5>Este es el header h5 <small> Texto secundaria</small></h5>
+		<h6>Este es el header h6 <small> Texto secundaria</small></h6>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="row">
+		<div class="col-md-4 text-justify">
+			<p class="lead  bg-primary"> Etiquetas</p>			
+			<p class=""> <mark> Lorem ipsum dolor sit amet, consecterur adipisicing 2</mark></p>
+			<p class=""> <s>Lorem ipsum dolor sit amet, consecterur adipisicing 3 </s></p>
+			<p class=""> <small>Lorem ipsum dolor sit amet, consecterur adipisicing 4 </small></p>
+			<p class=""> <u>Lorem ipsum dolor sit amet, consecterur adipisicing 5 </u></p>
+			<p class=""> <b>Lorem ipsum dolor sit amet, consecterur adipisicing 6</b></p>
+			<p class=""> <em>Lorem ipsum dolor sit amet, consecterur adipisicing 7 </em></p>
+		</div>
+
+		<div class="col-md-4">
+			<p class="lead bg-primary"> Parrafos de código</p>			
+			<p class=""> <code>Lorem ipsum dolor sit amet, consecterur adipisicing 2 </code></p>
+			<p class=""> <pre>Lorem ipsum dolor sit amet, consecterur adipisicing 3 </pre></p>
+			<p class=""> Lorem ipsum dolor sit amet, consecterur adipisicing 4</p>
+			<p class=""> Lorem ipsum dolor sit amet, consecterur adipisicing 5</p>
+			<p class=""> Lorem ipsum dolor sit amet, consecterur adipisicing 6</p>
+			<p class=""> Lorem ipsum dolor sit amet, consecterur adipisicing 7</p>
+		</div>
+
+		<div class="col-md-4">
+				<p class="lead text-center">Color y fondo de los parrafos</p>
+			<div class="text-right"> 
+				<p class="lead text-left"> Text (text-xx) </p>			
+				<p class="text-primary"> Lorem ipsum dolor sit amet, consecterur adipisicing 2</p>
+				<p class="text-muted"> Lorem ipsum dolor sit amet, consecterur adipisicing 3</p>
+				<p class="text-info"> Lorem ipsum dolor sit amet, consecterur adipisicing 4</p>
+				<p class="text-warning"> Lorem ipsum dolor sit amet, consecterur adipisicing 5</p>
+				<p class="text-danger"> Lorem ipsum dolor sit amet, consecterur adipisicing 6</p>
+			</div>
+			<div class="text-right">
+				<p class="lead text-left"> Fondo de los parrafos (bg-XX) </p>
+				<p class="bg-primary"> BG PRIMARY</p>
+				<p class="bg-success"> BG SUCCESS</p>
+				<p class="bg-info"> BG INFO</p>
+				<p class="bg-warning"> BG WARNING</p>
+				<p class="bg-danger"> BG DANGER</p>
+				
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="row">
+			<blockquote class="blockquote-reverse">
+				<p> Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, Less and Sass. Quickly get started with precompiled CSS or build on the source.</p>
+				<footer> Hecho por: <cite title="Fuente"> Hans Agurto Leon </cite> </footer>
+
+			</blockquote>
+		</div>
+	</div>
+
+	<code>
+		import os
+import sys
+
+from os.path import dirname, realpath
+from site import addsitedir
+
+BASE_DIR = dirname(realpath(__file__))
+
+WORKON_HOME = '/home/devstaff/.envs/'
+VENV = 'django_1_9'
+
+
+addsitedir('{0}/{1}/lib/python2.7/site-packages'.format(WORKON_HOME, VENV))
+
+sys.path = [BASE_DIR] + sys.path
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.production')
+
+# # activamos el entorno virtual
+activate_this = os.path.expanduser(
+     '{0}/{1}/bin/activate_this.py'.format(WORKON_HOME, VENV))
+execfile(activate_this, dict(__file__=activate_this))
+
+from django.core.wsgi import get_wsgi_application
+
+application = get_wsgi_application()
+
+	</code>
+	<script src="js/bootstrap.min.js">
+</body>
+</html>

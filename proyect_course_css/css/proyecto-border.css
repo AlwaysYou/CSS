@@ -52,6 +52,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	font-size: 20px;
+	margin: 0 auto 30px auto;
 }
 li{
 	list-style: none;
@@ -126,4 +127,39 @@ li{
 	background-size: cover;
 	height: 500px;
 	padding-top: 150px;
+}
+
+/* modulo 7 */
+.ranking-superior{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.ranking-titulo-h2{
+	font-size: 20px;
+	font-weight: 400;
+}
+.lista-ranking{
+	margin-top: 60px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.titulo-ranking-item{
+	margin-top: 10px;
+}
+
+.bloque-item-bottom{
+	width: 270px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.icon-descarga{
+	transition-duration: 2s;
+}
+
+.ranking-bottom:hover .icon-descarga{
+	transform: translateX(50px);
 }

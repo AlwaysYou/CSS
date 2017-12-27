@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+	h1{
+		font-family: "Amatic SC";
+		text-align: center;
+		color: steelblue;
+	}
+
+	.container{
+		width: 500px;
+		height: 500px;
+		background: lightblue;
+		margin: auto;
+	}
+	.caja{
+		width: 100px;
+		height: 100px;
+		background: tomato;
+		transition-duration: 2s;
+		margin-bottom: 20px;
+	}
+
+	.caja1:hover{
+		transform: translateX(20px);
+	}
+
+}

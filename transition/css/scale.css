@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-family: "Amatic SC";
+	text-align: center;
+	color:steelblue;
+}
+
+.container{
+	width: 500px;
+	height: 700px;
+	background: lightblue;
+	margin: auto;
+}
+
+.caja{
+	width: 100px;
+	height: 100px;
+	background: tomato;
+	margin: auto;
+	text-align: center;
+	/**/
+	transition-duration: 1s;
+}
+.caja1:hover{
+	/* Valor 1 por defecto*/
+	transform: scale(0);
+}
+
+.caja2:hover{
+	/* 1er valor Eje X, 2do EJE Y*/
+	transform: scale(1.2, 0.8);
+}
+
+.caja3:hover{
+	transform: scaleY(2);
+}

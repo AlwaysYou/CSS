@@ -1,0 +1,36 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.caja{
+	width: 200px;
+	height: 200px;
+	transition-duration: 1s;
+}
+.caja1{
+	background: green;
+	color: white;
+	text-align: center;
+	line-height: 200px;
+}
+.caja2{
+	background: brown;
+}
+.caja1:hover{
+	transform: rotate(90deg);
+}
+
+.caja2:hover{
+	transform: rotate(180deg);
+}
+
+.content{
+	margin: auto;
+	width: 700px;
+	height: 800px;
+	background: pink;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-contens: center;
+}

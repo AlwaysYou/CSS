@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<title> Dropdown</title>
+</head>
+<body>
+
+	<div class="container">
+		<br>
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu1" data-toggle="dropdown">
+				<span class="glyphicon glyphicon-user"> </span>
+				Hola Hans Takeshi 
+				<span class="caret"></span>
+			</button>
+
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownmenu1">
+				<li role="representation" class="dropdown-header"> Profile </li>
+				<li class="divider"> </li>
+				<li role="presentation"> <a href="#"> Editar Nombre </a></li>
+				<li role="presentation"> <a href="#"> Editar imagen </a></li>
+				<li role="presentation"> <a href="#"> Cambiar contraseña </a></li>
+				<!-- Otra division-->
+
+				<li class="divider"> </li>
+				<li role="presentation" class="dropdown-header"> Cursos </li>
+				<li class="divider"> </li>
+				<li role="presentation"> <a href="#"> HTML </a> </li>
+				<li role="presentation"> <a href="#"> CSS </a> </li>
+				<li role="presentation"> <a href="#"> JQUERY </a> </li>
+
+			</ul>
+		</div>
+	</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
