@@ -1,23 +1,30 @@
 var gulp = require('gulp'),
 	stylus = require('gulp-stylus');
 	connect = require('gulp-connect'),
+	findPort = require('find-port'),
 
 gulp.task('styles', function(){
 	gulp.src('./stylus/*.styl')
 	.pipe(stylus())
 	.pipe(gulp.dest('./css'))
 	});
+
 // directorios del sistema
 var path = {
-	stylus_dirs: 'source/static/stylus/**/*.styl',
-	html_build: 'source/app/',
+	stylus_dirs: '/stylus/*.styl',
+	html_build: './',
 
-}
-//Variables de Templates
+},
 CONST = {
-	ROOT: './'
-}
+	ROOT: '.'
+};
+//Variables de Templates
+
 var server_port = 8080;
+findPort(server_port, server_port+10, function(ports) {
+		server_port = ports[0];
+	});
+
 //Livereload - Watch Taks HTML - CSS
 gulp.task('connect', function(){
 	connect.server({
@@ -51,5 +58,4 @@ gulp.task('watch', function(){
 // 	.pipe(gulp.dest(path.css))});
 
 
-gulp.task('default', ['connect', 'styles',
-					  'watch',])
+gulp.task('default', ['styles', 'watch', 'connect'])

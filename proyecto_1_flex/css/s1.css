@@ -1,8 +1,155 @@
-.on {
-  position: relative;
-  background: #f00;
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .container {
-  position: relative;
-  font-family: Arial;
+  max-width: 1000px;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+.btn {
+  color: #3484e5;
+  border: 1px solid #3484e5;
+  padding: 0.5em;
+  border-radius: 2px;
+}
+.menu {
+  background-color: #2b2c30;
+  padding: 1em 0;
+}
+.row__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__lista {
+  display: none;
+  color: #fff;
+}
+@media screen and (min-width: 480px) {
+  .menu__lista {
+    display: block;
+  }
+}
+.menu__item {
+  display: inline-block;
+  color: #fff;
+  padding: 0.5em 1em;
+}
+.menu__link {
+  color: #fff;
+}
+.logo__blue {
+  color: #3e8eea;
+}
+.logo__white {
+  color: #fff;
+}
+.welcome {
+  background-color: #2b2c30;
+  padding: 1em 0;
+  color: #fff;
+}
+.welcome__title {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+.row__welcome {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 400px) {
+  .row__welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.welcome__item {
+  text-align: center;
+  padding: 1em;
+}
+.welcome__img {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+}
+.boton__welcome {
+  padding: 0.5em 1em;
+  background-color: #3484e5;
+}
+.row__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.row__beneficios_titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container__beneficios {
+  padding-top: 30px;
+}
+.imagen_central {
+  display: flex;
+  justify-content: center;
+  margin: 0.5 auto;
+}
+.img_car {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (min-width: 400px) {
+  .img_car {
+    width: 500px;
+    height: 500px;
+  }
+}
+.row_items_centrales {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+}
+@media screen and (min-width: 480px) {
+  .row_items_centrales {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 0;
+    justify-content: space-between;
+  }
+}
+.beneficio_titulo {
+  color: #3484e5;
+  font-size: 1em;
+}
+.info {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.info_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__enlace {
+  color: #3484e5;
+  border: 1px solid #3484e5;
+  padding: 0.5em;
+  border-radius: 2px;
+}
+.footer {
+  padding: 1em 0;
+}
+.footer__imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo__item {
+  width: 50px;
+  height: 50px;
 }
