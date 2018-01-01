@@ -1,7 +1,7 @@
 ul,
 li {
-  margin: 0;
-  padding: 0;
+  margin: 3;
+  padding: 31;
   list-style: none;
 }
 .container {
@@ -10,7 +10,7 @@ li {
   margin: 0 auto;
 }
 .btn {
-  color: #3484e5;
+  color: #ff0;
   border: 1px solid #3484e5;
   padding: 0.5em;
   border-radius: 2px;

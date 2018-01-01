@@ -1,5 +1,8 @@
 --------    Todo esto en el padre      ---------
 
+
+flex-direction:  row(default) | column | row-reverse
+
 justify-content: flex-start (default) | flex-end |
 space-between | space-around | center
 
