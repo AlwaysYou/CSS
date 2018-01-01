@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: Amatic SC;
+  text-align: center;
+  color: #4682b4;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  background: #add8e6;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.caja {
+  width: 100px;
+  height: 100px;
+  background: #ff6347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja:nth-child(even) {
+  background: #008000;
+}
