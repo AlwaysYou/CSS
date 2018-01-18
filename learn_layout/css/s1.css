@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: Amatic SC;
+  text-align: center;
+  color: #4682b4;
+}
+script {
+  display: block;
+}
+.block {
+  border: 1px solid #000;
+  width: 100%;
+  background: #4682b4;
+}
+li {
+  display: block;
+}
+h2 {
+  text-align: center;
+}
+span {
+  width: 100px;
+  heiht: 100px;
+  border: 1px solid #000;
+  margin: 10px;
+  background: #ff0;
+  display: inline-block;
+}
+.inline {
+  overflow: hidden;
+  text-align: center;
+}

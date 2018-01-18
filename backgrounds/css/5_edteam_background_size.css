@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+
+}
+.container{
+	width: 300px;
+	height: 500px;
+
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+	background: yellow url("http://imagenpng.com/wp-content/uploads/img/ciudad-de-nueva-york-1638x1024-635x397.jpg");
+
+	background-size: 100px 500px;
+
+	/*0. El valor auto deja a el tamaño original de la imagen*/
+	background-size: auto;
+
+	/* 1. Para evitar que se repite*/
+	background-repeat: no-repeat;
+
+	/* 2. Rellenar toda la caja con la imagen del fondo*/
+	background-size: cover;
+
+	/* 3, Que la imagen quepe dentro de la caja con un tamaño sin estiramiento y nada se escape*/
+		/* Pareciera que la imagen se mueve en porcentaje*/
+		/* ni un pixel se escapa*/
+	/*background-size: contain;*/
+
+	/* 4.  Para centrar la imagen: */
+	background-position: center center;
+
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Paradas para la animación*/
+@keyframes example{
+	from{
+		background-position: left center;
+	}
+	to{
+		background-position: center right;
+	}
+}

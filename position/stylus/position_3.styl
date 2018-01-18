@@ -1,0 +1,42 @@
+body
+	top 0
+	left 0
+	
+// 1. Para este ejemplo el tamaño del section esta dado gracias al div de abajo.
+section
+	// Border
+	// border : Tamañao - estilo - color
+	border 2px dashed steelblue
+	padding 2em
+	display table
+	margin auto
+	// 2. Para evitar que se quede sin tamaño debido al position absolute, le daremos dimensiones
+	width: 400px
+	height 400px
+	// Como agregamos tamaño al section, el elemento uno dentro del div, obedece a estas dimensiones
+		
+	// 3.El ancho de un elemento posicionado em absolute esta definido por su contenido, por eso el bloque deja de ser display: block
+	// 4. Busca el ancestro mas cercano posicionado (que tenga relative, absolute, fixed)
+		// Si ninguno esta posicionado ... lo toma referente al body
+			
+	// 6. Para evitar que el elemento se vaya fuera de la caja, vamos a posicionarlo
+	position relative
+	// 7. Gracias a este valor, estamos posicionado al section, este seria el ancestro mas cercado del elemento "uno"
+div
+	color #444
+	font-size 2.8em
+	font-weight bold
+	padding .5em
+	line-height 1.5
+	text-align center
+	background rgba(173, 216, 230, .7)
+	border-radius 5px
+	
+.uno
+	// pierde su tamañao en el flujo
+	position absolute
+	// 5. Para este caso coloco top 0, pero como en principio el section no está posicionado... toma al body y el bloque va a hast arriba
+	right 0
+	bottom 0
+	
+	// 

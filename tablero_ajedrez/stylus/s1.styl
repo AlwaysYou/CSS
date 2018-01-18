@@ -1,0 +1,33 @@
+body
+	margin 0
+	padding 0
+	background steelblue
+	font-family sans-serif
+	text-align center
+#tablero
+	background url('../img/tablero.png')
+	height 400px
+	width 400px
+	box-shadow 0px 10px 10px -6px rgba(0, 0, 0, .6)
+	margin auto
+	border-radius 3px
+	border-collapse: collapse
+	// Explicacion
+	position absolute
+	top 0
+	left 0
+	right 0
+	bottom 0
+	
+td
+	height 50px
+	width 50px
+	font-size 37px
+	text-shadow 1px 1px 1px rba(255, 255, 255, .6)
+#tablero tr:nth-child(odd) td:nth-child(even), #tablero tr:nth-child(even) td:nth-child(odd)
+	background rgba(0, 0, 0, .4)
+
+
+tr:nth-child(n+6) td
+	color: #fff
+	text-shadow 1px 1px 1px rgba(0, 0, 0, .6)

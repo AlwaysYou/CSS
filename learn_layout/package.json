@@ -13,11 +13,9 @@
     "find-port": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
-    "gulp-stylus": "^2.7.0",
-    "gulp-swig": "^0.8.0"
+    "gulp-stylus": "^2.7.0"
   },
   "dependencies": {
-    "gulp-twig": "^1.1.1",
-    "swig": "^1.4.2"
+    "gulp-twig": "^1.1.1"
   }
 }

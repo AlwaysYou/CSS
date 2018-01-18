@@ -10,7 +10,7 @@ h1{
 }
 
 .container{
-	width: 500px;
+	width: 400px;
 	height: 700px;
 	background: lightblue;
 	/* Por que el margin auto lo centra ?*/
@@ -21,9 +21,8 @@ h1{
 }
 
 .item{
-	flex-basis: 100px;
+	flex-basis: 40px;
 	background: teal;
-	flex-grow: 1;
 	/*margin: 10px;*/
 	display: flex;
 	justify-content: center;
@@ -35,6 +34,6 @@ h1{
 	background: tomato;
 }
 
-.item:nth-child(2){
+.item:nth-child(odd){
 	flex-grow: 2;
 }

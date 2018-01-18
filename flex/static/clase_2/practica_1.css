@@ -18,7 +18,7 @@ h1{
 }
 
 .item{
-	flex-basis: 100px;
+	flex-basis: 200px;
 }
 .item:nth-child(1){
 	background: tomato;
